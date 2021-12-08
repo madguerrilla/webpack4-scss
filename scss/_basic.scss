@@ -1,0 +1,28 @@
+.foo {
+    color: #f00;
+}
+@media print, screen and (max-width: 60em) {
+    .foo {
+        color: #0f0;
+        color: #00f;
+    }
+}
+
+.bar {
+    font-size: 1rem;
+}
+@media print, screen and (max-width: 60em) and (orientation: landscape) {
+    .bar {
+        font-size: 2rem;
+    }
+}
+
+.lorem {
+    content: 'ipsum';
+}
+
+@media screen and (min-width: 75em) {
+    body {
+        background-color: #efefef;
+    }
+}

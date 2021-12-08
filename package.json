@@ -1,0 +1,37 @@
+{
+  "name": "webpack4-scss",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start": "npm run build",
+    "build": "webpack --mode=production",
+    "dev": "webpack --mode=development"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^9.1.5",
+    "bootstrap": "^4.1.3",
+    "clean-webpack-plugin": "^0.1.19",
+    "compression-webpack-plugin": "^2.0.0",
+    "css-loader": "^1.0.0",
+    "jquery": "^3.3.1",
+    "media-query-plugin": "^1.2.0",
+    "mini-css-extract-plugin": "^0.4.3",
+    "node-sass": "^4.9.3",
+    "optimize-css-assets-webpack-plugin": "^5.0.1",
+    "popper.js": "^1.14.4",
+    "postcss": "^7.0.2",
+    "postcss-loader": "^3.0.0",
+    "postcss-scss": "^2.0.0",
+    "precss": "^3.1.2",
+    "sass-loader": "^7.1.0",
+    "style-loader": "^0.23.0",
+    "stylelint": "^9.5.0",
+    "stylelint-webpack-plugin": "^0.10.5",
+    "uglifyjs-webpack-plugin": "^2.0.1",
+    "webpack": "^4.20.0",
+    "webpack-cli": "^3.1.1"
+  }
+}
